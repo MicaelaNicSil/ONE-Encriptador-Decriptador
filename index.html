@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+
+    <!-- links and Styles -->
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+  </head>
+
+  <img class="cat-icon" src="1_KITTY ICONe.png" />
+
+  <body>
+    <form action="" class="form-control1" id="enc-form">
+      <textarea
+        type="text"
+        class="form-control"
+        id="insertTextField1"
+        placeholder="Insert text here"
+      >
+
+            </textarea
+      >
+      <button type="submit" id="enc-button" class="enc-button">Encrypt</button>
+      <button type="submit" id="dec-button" class="dec-button">Decode</button>
+    </form>
+
+    <div class="right-div">
+      <div class="message-div" id="message-div">
+        <img class="window" src="window.png" />
+
+        <h3 class="no-messages">No messages found</h3>
+        <a> Insert the text that you wish to encrypt or decode</a>
+      </div>
+
+      <div class="result-div2" id="result-div">
+        <textarea class="result" id="result" value="hey"></textarea>
+
+        <button type="submit" class="copy-button" id="copy-button">Copy</button>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="index.js"></script>
+  </body>
+</html>
